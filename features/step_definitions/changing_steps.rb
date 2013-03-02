@@ -10,7 +10,7 @@ Given /^the representation is "([^"]*)"$/ do |representation|
               6
           end
 
-  @plotter = Plotter.new score
+  @plotter = LinePlotter.new score
 end
 
 Then /^the present should be "([^"]*)"$/ do |present|

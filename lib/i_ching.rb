@@ -45,7 +45,7 @@ class Scorer
     end
 end
 
-class Plotter
+class LinePlotter
   def initialize score
     @score = score
   end
