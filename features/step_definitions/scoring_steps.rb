@@ -13,6 +13,6 @@ When /^the scorer is run$/ do
   @scorer = Scorer.new @values
 end
 
-Then /^the score should be "([^"]*)"$/ do |score|
-  @scorer.score.should eq score.to_i
+Then /^the score should be "(#{CAPTURE_A_NUMBER})"$/ do |score|
+  @scorer.score.should eq score
 end
