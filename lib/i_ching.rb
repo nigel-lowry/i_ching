@@ -44,3 +44,22 @@ class Scorer
       end
     end
 end
+
+class Plotter
+  def initialize score
+    @score = score
+  end
+
+  def to_s
+    case @score
+      when 9
+        '.---'
+      when 8
+        '- -'
+      when 7
+        '---'
+      when 6
+        '.- -'
+    end
+  end
+end
