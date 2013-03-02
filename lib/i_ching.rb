@@ -62,4 +62,24 @@ class Plotter
         '.- -'
     end
   end
+
+  def present
+    case @score
+      when 9, 7
+        '---'
+      when 8, 6
+        '- -'
+    end
+  end
+
+  def future
+    case @score
+      when 9
+        '- -'
+      when 6
+        '---'
+      else
+        present
+    end
+  end
 end
