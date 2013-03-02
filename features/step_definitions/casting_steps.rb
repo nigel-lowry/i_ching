@@ -1,7 +1,8 @@
 When /^I cast$/ do
-  pending
+  @caster = Caster.new
+  @result = @caster.cast
 end
 
 Then /^I will get back six lines$/ do
-  pending
+  @result.size = 6
 end
