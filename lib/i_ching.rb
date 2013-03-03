@@ -84,7 +84,7 @@ class LinePlotter
     case @score
       when 9, 7
         UNBROKEN
-      when 8, 6
+      else
         BROKEN
     end
   end
