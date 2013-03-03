@@ -1,9 +1,13 @@
 class Caster
   def cast
-    cast_line
+    cast_six_lines
   end
 
   private
+
+    def cast_six_lines
+      [cast_line, cast_line, cast_line, cast_line, cast_line, cast_line]
+    end
 
     def cast_line
       toss_three_coins
@@ -63,15 +67,6 @@ class LinePlotter
     end
   end
 
-  def present
-    case @score
-      when 9, 7
-        '---'
-      when 8, 6
-        '- -'
-    end
-  end
-
   def future
     case @score
       when 9
@@ -80,6 +75,15 @@ class LinePlotter
         '---'
       else
         present
+    end
+  end
+
+  def present
+    case @score
+      when 9, 7
+        '---'
+      when 8, 6
+        '- -'
     end
   end
 end
