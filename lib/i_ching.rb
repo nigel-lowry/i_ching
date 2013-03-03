@@ -59,15 +59,13 @@ class LinePlotter
   end
 
   def to_s
+    the_present = present
+
     case @score
-      when 9
-        ".#{UNBROKEN}"
-      when 8
-        BROKEN
-      when 7
-        UNBROKEN
-      when 6
-        ".#{BROKEN}"
+      when 9, 6
+        ".#{the_present}"
+      else
+        the_present
     end
   end
 
