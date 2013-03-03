@@ -6,7 +6,7 @@ class Caster
   private
 
     def cast_six_lines
-      6.times.map {cast_line}
+      6.times.map { Scorer.new(cast_line).score }
     end
 
     def cast_line
