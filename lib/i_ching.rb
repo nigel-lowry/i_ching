@@ -50,6 +50,10 @@ class Scorer
 end
 
 class LinePlotter
+
+  BROKEN = '- -'
+  UNBROKEN = '---'
+
   def initialize score
     @score = score
   end
@@ -57,22 +61,22 @@ class LinePlotter
   def to_s
     case @score
       when 9
-        '.---'
+        ".#{UNBROKEN}"
       when 8
-        '- -'
+        BROKEN
       when 7
-        '---'
+        UNBROKEN
       when 6
-        '.- -'
+        ".#{BROKEN}"
     end
   end
 
   def future
     case @score
       when 9
-        '- -'
+        BROKEN
       when 6
-        '---'
+        UNBROKEN
       else
         present
     end
@@ -81,9 +85,9 @@ class LinePlotter
   def present
     case @score
       when 9, 7
-        '---'
+        UNBROKEN
       when 8, 6
-        '- -'
+        BROKEN
     end
   end
 end
