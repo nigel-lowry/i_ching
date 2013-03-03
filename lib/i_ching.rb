@@ -69,6 +69,15 @@ class LinePlotter
     end
   end
 
+  def present
+    case @score
+      when 9, 7
+        UNBROKEN
+      else
+        BROKEN
+    end
+  end
+
   def future
     case @score
       when 9
@@ -77,15 +86,6 @@ class LinePlotter
         UNBROKEN
       else
         present
-    end
-  end
-
-  def present
-    case @score
-      when 9, 7
-        UNBROKEN
-      else
-        BROKEN
     end
   end
 end
