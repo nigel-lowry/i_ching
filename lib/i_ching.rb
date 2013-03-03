@@ -6,7 +6,7 @@ class Caster
   private
 
     def cast_six_lines
-      [cast_line, cast_line, cast_line, cast_line, cast_line, cast_line]
+      6.times.map {cast_line}
     end
 
     def cast_line
@@ -14,7 +14,7 @@ class Caster
     end
 
     def toss_three_coins
-      [toss_coin, toss_coin, toss_coin]
+      3.times.map {toss_coin}
     end
 
     def toss_coin
