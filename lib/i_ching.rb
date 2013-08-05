@@ -1,3 +1,4 @@
+# encoding: UTF-8
 class Caster
   def cast
     cast_six_lines
@@ -97,5 +98,20 @@ class Hexagram
 
   def to_i
     @hexagram_symbol.ord - 19_903
+  end
+end
+
+class Hexagram2
+  def initialize monograms
+    @monograms = monograms
+  end
+
+  def to_s
+    monograms_to_hexagrams = {
+      '⚊⚊⚊⚊⚊⚊' => '䷀',
+      '⚋⚋⚋⚋⚋⚋' => '䷁'
+    }
+
+    monograms_to_hexagrams[@monograms]
   end
 end
