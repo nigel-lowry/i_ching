@@ -8,7 +8,7 @@ Then /^its number is "([^"]*)"$/ do |number|
   expect(@hexagram.to_i).to eq(number)
 end
 
-Given /^the monograms from bottom to top are "([^"]*)"$/ do |monograms|
+When /^the monograms from bottom to top are "([^"]*)"$/ do |monograms|
   @monograms = monograms.chars.map do |value|
     case value
       when '⚊'

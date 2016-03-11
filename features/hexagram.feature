@@ -2,7 +2,7 @@
 Feature: Hexagram identification
 
   Scenario Outline: Map lines to hexagram
-    Given the monograms from bottom to top are "<lines>"
+    When the monograms from bottom to top are "<lines>"
     Then the hexagram is "<hexagram>"
 
   Examples:
