@@ -29,7 +29,7 @@ Feature: Plotting
     | 8     |  - -     |
 
   Examples: Unstable monograms
-    A score of 6 or 9 yields an unstable monogram (represented as a leading dot)
+    A score of 6 or 9 yields an unstable monogram (represented by a leading dot)
 
     | score | monogram |
     | 6     | .- -     |
