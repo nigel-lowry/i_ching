@@ -5,7 +5,7 @@ Feature: Hexagram identification
     When the monograms from bottom to top are "<lines>"
     Then the hexagram is "<hexagram>"
 
-  Examples:
+  Examples: The 64 hexagrams (todo)
     | lines  | hexagram |
     | ⚊⚊⚊⚊⚊⚊ | ䷀       |
     | ⚋⚋⚋⚋⚋⚋ | ䷁       |
@@ -14,7 +14,7 @@ Feature: Hexagram identification
     When the hexagram "<hexagram>"
     Then its number is "<number>"
 
-  Examples:
+  Examples: The 64 hexagrams as numbers (todo)
     | hexagram | number |
     | ䷀       | 1      |
     | ䷁       | 2      |
