@@ -1,9 +1,9 @@
 module KnowsTheDomain
   def my_monogram_values
-    @my_monogram_values ||= my_caster.cast
+    @my_monogram_values ||= caster.cast
   end
 
-  def my_caster
+  def caster
     @my_caster ||= Caster.new
   end
 end
