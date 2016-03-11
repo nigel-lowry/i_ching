@@ -1,5 +1,8 @@
 Feature: Plotting
 
+  There are four possible outcomes for each line. Each line can be either broken or unbroken, and at the same time,
+  stable or unstable.
+
   Scenario Outline: Plot
     When the score is "<score>"
     Then the representation should be "<representation>"
