@@ -1,14 +1,14 @@
 @wip
 Feature: Hexagram identification
 
-  Scenario Outline: Map lines to hexagram
-    When the monograms from bottom to top are "<lines>"
+  Scenario Outline: Map monograms to hexagram
+    When the monograms from bottom to top are "<monograms>"
     Then the hexagram is "<hexagram>"
 
   Examples: The 64 hexagrams (todo)
-    | lines  | hexagram |
-    | ⚊⚊⚊⚊⚊⚊ | ䷀       |
-    | ⚋⚋⚋⚋⚋⚋ | ䷁       |
+    | monograms  | hexagram |
+    | ⚊⚊⚊⚊⚊⚊     | ䷀       |
+    | ⚋⚋⚋⚋⚋⚋     | ䷁       |
 
   Scenario Outline: Map hexagram to number
     When the hexagram "<hexagram>"

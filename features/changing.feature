@@ -1,23 +1,23 @@
 Feature: Changing
 
-  Lines either stay the same in the future, or they change.
+  Monograms either stay the same in the future, or they change.
 
   Scenario Outline: Plot
-    When the representation is "<representation>"
+    When the monogram is "<monogram>"
     Then the present should be "<present>"
       And the future should be "<future>"
 
-  Examples: Stable lines
-    Stable lines remain the same in the future
+  Examples: Stable monograms
+    Stable monograms remain the same in the future
 
-    | representation | present | future |
-    |  - -           | - -     | - -    |
-    |  ---           | ---     | ---    |
+    | monogram | present | future |
+    |  - -     | - -     | - -    |
+    |  ---     | ---     | ---    |
 
-  Examples: Unstable lines
-    Unstable lines (represented by a leading dot) change in the future. Unbroken lines become broken and broken lines
-    become unbroken.
+  Examples: Unstable monograms
+    Unstable monograms (represented by a leading dot) change in the future. Unbroken monograms become broken and broken
+    monograms become unbroken.
 
-    | representation | present | future |
-    | .---           | ---     | - -    |
-    | .- -           | - -     | ---    |
+    | monogram | present | future |
+    | .---     | ---     | - -    |
+    | .- -     | - -     | ---    |

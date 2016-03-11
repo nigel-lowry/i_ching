@@ -3,7 +3,7 @@ When /^I cast$/ do
   @line_values = @caster.cast
 end
 
-Then /^I will get back six lines$/ do
+Then /^I will get back six monograms$/ do
   expect(@line_values).to have(6).items
 end
 

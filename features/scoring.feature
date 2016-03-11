@@ -1,10 +1,10 @@
 Feature: Scoring
 
-  Each line has a score of 6, 7, 8, or 9. Thus there are four different lines.
+  Each monogram has a score of 6, 7, 8, or 9. Thus there are four different monograms.
 
-  Scenario Outline: Score line toss
+  Scenario Outline: Score coin tosses
     Given the three coin tosses are "<tosses>"
-    When the line is evaluated
+    When the tosses are evaluated
     Then the score should be "<score>"
 
   Examples: All heads

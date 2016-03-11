@@ -1,5 +1,5 @@
-When /^the representation is "([^"]*)"$/ do |representation|
-  score = case representation
+When /^the monogram is "([^"]*)"$/ do |monogram|
+  score = case monogram
             when '.---'
               9
             when '- -'
