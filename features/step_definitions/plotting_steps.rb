@@ -3,5 +3,5 @@ When /^the score is "(#{CAPTURE_A_NUMBER})"$/ do |score|
 end
 
 Then /^the monogram should be "([^"]*)"$/ do |monogram|
-  expect(LinePlotter.new(@score).to_s).to eq(monogram)
+  expect(MonogramPlotter.new(@score).to_s).to eq(monogram)
 end

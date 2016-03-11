@@ -50,7 +50,7 @@ class Scorer
     end
 end
 
-class LinePlotter
+class MonogramPlotter
 
   BROKEN = '- -'
   UNBROKEN = '---'

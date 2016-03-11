@@ -10,7 +10,7 @@ When /^the monogram is "([^"]*)"$/ do |monogram|
               6
           end
 
-  @plotter = LinePlotter.new score
+  @plotter = MonogramPlotter.new score
 end
 
 Then /^the present should be "([^"]*)"$/ do |present|
