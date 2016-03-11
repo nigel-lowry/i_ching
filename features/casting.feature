@@ -1,9 +1,8 @@
 Feature: Casting
 
   In I Ching, you toss three coins, each forming what's called a line, six times. This gives you a present hexagram
-  (fortune), and a future hexagram too, from "The Oracle". Sometimes the present and future hexagrams are identical, but
-  sometimes not. You then check what the hexagrams represent in an I Ching book ("The Book of Changes"). There are
-  64 hexagrams.
+  (fortune), and a future hexagram too, from "The Oracle". The present and future hexagrams may or may not be identical.
+  You then check what the hexagrams represent in an I Ching book ("The Book of Changes"). There are 64 hexagrams.
 
   Scenario: Toss coins
     When I cast
