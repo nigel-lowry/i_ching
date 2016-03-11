@@ -52,8 +52,8 @@ end
 
 class MonogramPlotter
 
-  BROKEN = '- -'
-  UNBROKEN = '---'
+  @@BROKEN = '- -'
+  @@UNBROKEN = '---'
 
   def initialize score
     @score = score
@@ -73,18 +73,18 @@ class MonogramPlotter
   def present
     case @score
       when 9, 7
-        UNBROKEN
+        @@UNBROKEN
       else
-        BROKEN
+        @@BROKEN
     end
   end
 
   def future
     case @score
       when 9
-        BROKEN
+        @@BROKEN
       when 6
-        UNBROKEN
+        @@UNBROKEN
       else
         present
     end
