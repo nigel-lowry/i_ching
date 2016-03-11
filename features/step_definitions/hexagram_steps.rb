@@ -1,6 +1,6 @@
 # encoding: UTF-8
 
-Given /^the hexagram "([^"]*)"$/ do |hexagram|
+When /^the hexagram "([^"]*)"$/ do |hexagram|
   @hexagram = Hexagram.new(hexagram)
 end
 
