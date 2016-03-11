@@ -15,7 +15,7 @@ Feature: Changing
     |  ---           | ---     | ---    |
 
   Examples: Unstable lines
-    Unstable lines change in the future. Broken lines become unbroken and unbroken lines become broken.
+    Unstable lines change in the future. Unbroken lines become broken and broken lines become unbroken.
 
     | representation | present | future |
     | .---           | ---     | - -    |
