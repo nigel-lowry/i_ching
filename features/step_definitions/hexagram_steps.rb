@@ -5,7 +5,7 @@ Given /^the hexagram "([^"]*)"$/ do |hexagram|
 end
 
 Then /^it's number is "([^"]*)"$/ do |number|
-  @hexagram.to_i.should eq number
+  expect(@hexagram.to_i).to eq(number)
 end
 
 Given /^the monograms from bottom to top are "([^"]*)"$/ do |monograms|
@@ -21,5 +21,5 @@ end
 
 Then /^the hexagram is "([^"]*)"$/ do |hexagram|
   @hexagram2 = Hexagram2.new(@monograms)
-  @hexagram2.to_s.should eq hexagram
+  expect(@hexagram2.to_s).to eq(hexagram)
 end

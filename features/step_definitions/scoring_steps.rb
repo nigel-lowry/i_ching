@@ -14,5 +14,5 @@ When /^the scorer is run$/ do
 end
 
 Then /^the score should be "(#{CAPTURE_A_NUMBER})"$/ do |score|
-  @scorer.score.should eq score
+  expect(@scorer.score).to eq(score)
 end

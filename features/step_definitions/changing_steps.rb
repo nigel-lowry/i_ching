@@ -14,9 +14,9 @@ Given /^the representation is "([^"]*)"$/ do |representation|
 end
 
 Then /^the present should be "([^"]*)"$/ do |present|
-  @plotter.present.should eq present
+  expect(@plotter.present).to eq(present)
 end
 
 When /^the future should be "([^"]*)"$/ do |future|
-  @plotter.future.should eq future
+  expect(@plotter.future).to eq(future)
 end

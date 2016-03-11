@@ -4,9 +4,9 @@ When /^I cast$/ do
 end
 
 Then /^I will get back six lines$/ do
-  @line_values.size.should eq 6
+  expect(@line_values).to have(6).items
 end
 
 When /^each will have a score of between 6 and 9 inclusive$/ do
-  @line_values.all? {|line_value| (6..9).include? line_value }.should be
+  expect(@line_values.all? {|line_value| (6..9).include? line_value }).to be_true
 end
