@@ -1,7 +1,7 @@
 Feature: Scoring
 
   Scenario Outline: Score line toss
-    Given the coin tosses are "<tosses>"
+    Given the three coin tosses are "<tosses>"
     When the scorer is run
     Then the score should be "<score>"
 
