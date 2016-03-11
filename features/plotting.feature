@@ -29,7 +29,7 @@ Feature: Plotting
     | 8     |  - -           |
 
   Examples: Unstable lines
-    A score of 6 or 9 yields an unstable line
+    A score of 6 or 9 yields an unstable line (represented as a leading dot)
 
     | score | representation |
     | 6     | .- -           |
