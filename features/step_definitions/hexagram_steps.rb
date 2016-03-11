@@ -4,7 +4,7 @@ Given /^the hexagram "([^"]*)"$/ do |hexagram|
   @hexagram = Hexagram.new(hexagram)
 end
 
-Then /^it's number is "([^"]*)"$/ do |number|
+Then /^its number is "([^"]*)"$/ do |number|
   expect(@hexagram.to_i).to eq(number)
 end
 

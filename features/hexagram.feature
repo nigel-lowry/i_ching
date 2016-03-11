@@ -14,7 +14,7 @@ Feature: Hexagram identification
 
   Scenario Outline: Map hexagram to number
     Given the hexagram "<hexagram>"
-    Then it's number is "<number>"
+    Then its number is "<number>"
 
   Examples:
     | hexagram | number |
