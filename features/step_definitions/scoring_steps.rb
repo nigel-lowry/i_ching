@@ -9,7 +9,7 @@ Given /^the three coin tosses are "([^"]*)"$/ do |values|
   end
 end
 
-When /^the scorer is run$/ do
+When /^the line is evaluated$/ do
   @scorer = Scorer.new @values
 end
 

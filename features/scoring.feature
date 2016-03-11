@@ -2,7 +2,7 @@ Feature: Scoring
 
   Scenario Outline: Score line toss
     Given the three coin tosses are "<tosses>"
-    When the scorer is run
+    When the line is evaluated
     Then the score should be "<score>"
 
   Examples: All heads
