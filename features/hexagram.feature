@@ -10,8 +10,6 @@ Feature: Hexagram identification
     | ⚊⚊⚊⚊⚊⚊ | ䷀       |
     | ⚋⚋⚋⚋⚋⚋ | ䷁       |
 
-
-
   Scenario Outline: Map hexagram to number
     Given the hexagram "<hexagram>"
     Then its number is "<number>"
@@ -26,5 +24,3 @@ Feature: Hexagram identification
     | ䷅       | 6      |
     | ䷆       | 7      |
     | ䷇       | 8      |
-
-
