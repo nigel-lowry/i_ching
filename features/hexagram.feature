@@ -1,3 +1,4 @@
+@wip
 Feature: Hexagram identification
 
   Scenario Outline: Map lines to hexagram
