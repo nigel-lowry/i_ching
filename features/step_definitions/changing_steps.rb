@@ -1,4 +1,4 @@
-Given /^the representation is "([^"]*)"$/ do |representation|
+When /^the representation is "([^"]*)"$/ do |representation|
   score = case representation
             when '.---'
               9
