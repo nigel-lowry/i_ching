@@ -1,5 +1,7 @@
 Feature: Changing
 
+  Lines either stay the same in the future, or they change.
+
   Scenario Outline: Plot
     When the representation is "<representation>"
     Then the present should be "<present>"
