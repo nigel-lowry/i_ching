@@ -6,19 +6,19 @@ Feature: Scoring
     Then the score should be "<score>"
 
   Examples: All heads
-    Each head is worth 3
+    Each head is worth 3, so the score is 3 * 3 = 9
 
     | tosses | score |
     | hhh    | 9     |
 
   Examples: All tails
-    Each tail is worth 2
+    Each tail is worth 2, so the score is 3 * 2 = 6
 
     | tosses | score |
     | ttt    | 6     |
 
   Examples: Two heads and a tail
-    Since tails are worth 2 and a head is worth 3, the score is 8
+    The score is (2 * 3) + 2 = 8
 
     | tosses | score |
     | thh    | 8     |
@@ -26,7 +26,7 @@ Feature: Scoring
     | hht    | 8     |
 
   Examples: Two tails and a head
-    Since tails are worth 2 and a head is worth 3, the score is 7
+    The score is (2 * 2) + 3 = 7
 
     | tosses | score |
     | tth    | 7     |
