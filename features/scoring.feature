@@ -17,13 +17,18 @@ Feature: Scoring
     | tosses | score |
     | ttt    | 6     |
 
-  Examples: Mixture of heads and tails
-    For a mixture of heads and tails, heads are still worth 3, whilst tails are still worth 2
+  Examples: Two heads and a tail
+    Since tails are worth 2 and a head is worth 3, the score is 8
 
     | tosses | score |
     | thh    | 8     |
     | hth    | 8     |
     | hht    | 8     |
+
+  Examples: Two tails and a head
+    Since tails are worth 2 and a head is worth 3, the score is 7
+
+    | tosses | score |
     | tth    | 7     |
     | htt    | 7     |
     | tht    | 7     |
