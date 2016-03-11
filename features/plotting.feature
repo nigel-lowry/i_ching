@@ -1,7 +1,7 @@
 Feature: Plotting
 
   Scenario Outline: Plot
-    Given the score is "<score>"
+    When the score is "<score>"
     Then the representation should be "<representation>"
 
   Examples: Unbroken lines
