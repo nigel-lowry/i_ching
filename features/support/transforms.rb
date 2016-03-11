@@ -1,3 +1,3 @@
-CAPTURE_AN_INTEGER = Transform /^(\d+)$/ do |integer_as_string|
-  integer_as_string.to_i
+CAPTURE_A_NON_NEGATIVE_INTEGER = Transform /^(\d+)$/ do |non_negative_integer_as_string|
+  non_negative_integer_as_string.to_i
 end

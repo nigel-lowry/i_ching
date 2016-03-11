@@ -13,6 +13,6 @@ When /^the tosses are evaluated$/ do
   @scorer = Scorer.new @values
 end
 
-Then /^the score should be "(#{CAPTURE_AN_INTEGER})"$/ do |score|
+Then /^the score should be "(#{CAPTURE_A_NON_NEGATIVE_INTEGER})"$/ do |score|
   expect(@scorer.score).to eq(score)
 end
