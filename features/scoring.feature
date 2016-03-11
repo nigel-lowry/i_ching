@@ -1,5 +1,7 @@
 Feature: Scoring
 
+  Each line has a score of 6, 7, 8, or 9. Thus there are four different lines.
+
   Scenario Outline: Score line toss
     Given the three coin tosses are "<tosses>"
     When the line is evaluated
