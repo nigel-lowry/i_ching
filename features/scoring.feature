@@ -4,7 +4,6 @@ Feature: Scoring
 
   Scenario Outline: Score coin tosses
     Given the three coin tosses are "<tosses>"
-    When the tosses are evaluated
     Then the score should be "<score>"
 
   Examples: All heads
