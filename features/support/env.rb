@@ -11,3 +11,4 @@ $LOAD_PATH.unshift(File.dirname(__FILE__) + '/../../lib')
 require 'i_ching'
 
 require 'rspec/expectations'
+require 'rspec/collection_matchers'
