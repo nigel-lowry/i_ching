@@ -8,7 +8,7 @@ Feature: Changing
       And the future should be "<future>"
 
   Examples: Stable monograms
-    Stable monograms remain the same in the future
+    Stable monograms remain the same in the future.
 
     | monogram | present | future |
     |  - -     | - -     | - -    |
