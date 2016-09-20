@@ -8,4 +8,4 @@ Feature: Casting
   Scenario: Toss coins
     When I cast
     Then I will get back six monograms
-      And each will have a score between 6 and 9 inclusive
+      And each will have an integral score between 6 and 9 inclusive
