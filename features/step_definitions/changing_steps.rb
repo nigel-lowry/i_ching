@@ -17,6 +17,6 @@ Then /^the present should be "([^"]*)"$/ do |present|
   expect(@plotter.present).to eq(present)
 end
 
-When /^the future should be "([^"]*)"$/ do |future|
+Then /^the future should be "([^"]*)"$/ do |future|
   expect(@plotter.future).to eq(future)
 end
