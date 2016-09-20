@@ -1,4 +1,3 @@
-# encoding: UTF-8
 class Caster
   def cast
     cast_six_lines
