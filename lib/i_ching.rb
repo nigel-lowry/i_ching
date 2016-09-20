@@ -14,7 +14,7 @@ class Caster
     end
 
     def toss_three_coins
-      3.times.map {toss_coin}
+      3.times.map { toss_coin }
     end
 
     def toss_coin
