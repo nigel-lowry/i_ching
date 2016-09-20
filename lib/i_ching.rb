@@ -90,28 +90,3 @@ class MonogramPlotter
     end
   end
 end
-
-class Hexagram
-  def initialize hexagram_symbol
-    @hexagram_symbol = hexagram_symbol
-  end
-
-  def to_i
-    @hexagram_symbol.ord - 19_903
-  end
-end
-
-class Hexagram2
-  def initialize monograms
-    @monograms = monograms
-  end
-
-  def to_s
-    monograms_to_hexagrams = {
-      '⚊⚊⚊⚊⚊⚊' => '䷀',
-      '⚋⚋⚋⚋⚋⚋' => '䷁'
-    }
-
-    monograms_to_hexagrams[@monograms]
-  end
-end
