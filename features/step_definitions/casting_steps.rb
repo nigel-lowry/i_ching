@@ -7,5 +7,5 @@ Then /^I will get back six monograms$/ do
 end
 
 When /^each will have a score between 6 and 9 inclusive$/ do
-  expect(my_monogram_values.all? {|monogram_value| [6, 7, 8, 9].include? monogram_value }).to be true
+  expect(my_monogram_values).to all be_between(6, 9).inclusive
 end
