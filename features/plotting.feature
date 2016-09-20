@@ -4,7 +4,7 @@ Feature: Plotting
   time, stable or unstable.
 
   Scenario Outline: Plot
-    When the score is "<score>"
+    Given the score is "<score>"
     Then the monogram should be "<monogram>"
 
   Examples: Unbroken monograms

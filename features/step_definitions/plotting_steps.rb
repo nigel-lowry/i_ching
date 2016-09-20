@@ -1,4 +1,4 @@
-When /^the score is "(#{CAPTURE_A_NON_NEGATIVE_INTEGER})"$/ do |score|
+Given /^the score is "(#{CAPTURE_A_NON_NEGATIVE_INTEGER})"$/ do |score|
   @score = score
 end
 
