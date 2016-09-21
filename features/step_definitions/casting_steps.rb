@@ -7,6 +7,5 @@ Then /^I will get back six monograms$/ do
 end
 
 Then /^each will have an integral score between 6 and 9 inclusive$/ do
-  expect(my_monogram_values).to all be_an(Integer)
-  expect(my_monogram_values).to all be_between(6, 9).inclusive
+  expect(my_monogram_values).to all be_an(Integer).and be_between(6, 9).inclusive
 end
