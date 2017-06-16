@@ -89,3 +89,14 @@ class MonogramPlotter
     end
   end
 end
+
+class Hexagram
+  attr_reader :number
+
+  @@BROKEN = 'b'
+  @@UNBROKEN = 'u'
+
+  def initialize string
+    @number = 1
+  end
+end
