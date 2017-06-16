@@ -106,6 +106,7 @@ class Hexagram
 
   def initialize string
     raise string unless string =~ /^(u|b){6}$/
+
     @number = @@STRING_TO_NUMBER[string.to_sym]
   end
 end
