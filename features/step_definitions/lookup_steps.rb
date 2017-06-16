@@ -1,4 +1,4 @@
-Given(/^the hexagram from top to bottom is "(u|b){6}"$/) do |hexagram_string_representation|
+Given(/^the hexagram from top to bottom is "([^"]*)"$/) do |hexagram_string_representation|
   @hexagram = Hexagram.new hexagram_string_representation
 end
 
