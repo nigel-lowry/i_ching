@@ -8,7 +8,8 @@ Feature: Lookup
     Then its number is <number>
 
     Examples:
-      A u means unbroken whilst a b means broken. These are arbitrary and no mathematical relationship exists.
+      A u means unbroken whilst a b means broken, and the monogram is represented from top to bottom. These are
+      arbitrary and no mathematical relationship exists.
 
       | hexagram | number |
       | uuuuuu   | 1      |
