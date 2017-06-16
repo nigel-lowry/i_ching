@@ -5,7 +5,7 @@ Feature: Lookup
 
   Scenario Outline:
     Given the hexagram from top to bottom is <hexagram>
-    Then the number is <number>
+    Then its number is <number>
 
     Examples:
       A u means unbroken whilst a b means broken. These are arbitrary and no mathematical relationship exists.
