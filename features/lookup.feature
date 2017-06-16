@@ -27,10 +27,10 @@ Feature: Lookup
       | ubuuuu   | 14     |
       | bbbubb   | 15     |
       | bbubbb   | 16     |
-      | ububbu   | 17     |
+      | buubbu   | 17     |
       | ubbuub   | 18     |
       | bbbbuu   | 19     |
-      | uuuuuu   | 20     |
+      | uubbbb   | 20     |
       | ububbu   | 21     |
       | ubbubu   | 22     |
       | ubbbbb   | 23     |
@@ -38,7 +38,7 @@ Feature: Lookup
       | uuubbu   | 25     |
       | ubbuuu   | 26     |
       | ubbbbu   | 27     |
-      | buuuuu   | 28     |
+      | buuuub   | 28     |
       | bubbub   | 29     |
       | ubuubu   | 30     |
       | buuubb   | 31     |
@@ -47,12 +47,12 @@ Feature: Lookup
       | bbuuuu   | 34     |
       | ububbb   | 35     |
       | bbbubu   | 36     |
-      | uuuuuu   | 37     |
+      | uububu   | 37     |
       | ububuu   | 38     |
       | bububb   | 39     |
       | bbubub   | 40     |
       | ubbbuu   | 41     |
-      | uuuuuu   | 42     |
+      | uubbbu   | 42     |
       | buuuuu   | 43     |
       | uuuuub   | 44     |
       | buubbb   | 45     |
@@ -63,17 +63,17 @@ Feature: Lookup
       | ubuuub   | 50     |
       | bbubbu   | 51     |
       | ubbubb   | 52     |
-      | uuuuuu   | 53     |
+      | uububb   | 53     |
       | bbubuu   | 54     |
       | bbuubu   | 55     |
       | ubuubb   | 56     |
-      | uuuuuu   | 57     |
+      | uubuub   | 57     |
       | buubuu   | 58     |
-      | uuuuuu   | 59     |
+      | uubbub   | 59     |
       | bubbuu   | 60     |
-      | uuuuuu   | 61     |
+      | uubbuu   | 61     |
       | bbuubb   | 62     |
       | bububu   | 63     |
-      | ububuu   | 64     |
+      | ububub   | 64     |
 
 
