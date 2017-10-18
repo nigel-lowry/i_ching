@@ -1,5 +1,5 @@
-Given /^the score is "(#{CAPTURE_A_NON_NEGATIVE_INTEGER})"$/ do |score|
-  @score = score
+Given("the score is {string}") do |string|
+  @score = string.to_i
 end
 
 Then /^the monogram should be "([^"]*)"$/ do |monogram|

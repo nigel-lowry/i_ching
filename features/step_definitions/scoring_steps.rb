@@ -9,6 +9,6 @@ Given /^the three coin tosses are "([^"]*)"$/ do |values|
   end
 end
 
-Then /^the score should be "(#{CAPTURE_A_NON_NEGATIVE_INTEGER})"$/ do |score|
-  expect(Scorer.new(@values).score).to eq(score)
+Then("the score should be {string}") do |string|
+  expect(Scorer.new(@values).score).to eq(string.to_i)
 end
