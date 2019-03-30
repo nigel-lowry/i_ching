@@ -1,1 +1,1 @@
-default: --tags 'not @wip' --require features
+default: --tags 'not @wip' --require features --color
