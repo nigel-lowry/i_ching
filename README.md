@@ -7,6 +7,11 @@ Small repo to show how to spec something in Cucumber (in this case the rules of 
 1. `plotting.feature`
 1. `changing.feature`
 
+## Running Cucumber with Docker
+
+1. Install Docker for your platform
+1. Run `docker run --rm i_ching cucumber --color`
+
 ## Contributing to i_ching
  
 1. Check out the latest master to make sure the feature hasn't been implemented or the bug hasn't been fixed yet.
