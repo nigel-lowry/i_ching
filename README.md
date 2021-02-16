@@ -12,8 +12,9 @@ Small repo to show how to spec something in Cucumber (in this case the rules of 
 This isn't a Web application, but to get running with Cucumber quickly you can use Docker:
 
 1. Install Docker for your platform
+1. Run `docker build -t i_ching .`
 1. Run `docker run --rm i_ching cucumber`
-1. After editing, run `docker build -t i_ching .` before running Cucumber again
+1. After editing, run `docker build -t i_ching .` again before running Cucumber again
 
 ## Contributing to i_ching
  
