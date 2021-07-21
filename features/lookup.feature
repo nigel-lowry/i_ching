@@ -4,7 +4,7 @@ Feature: Lookup
   defined.
 
   Scenario Outline:
-    Given the hexagram from top to bottom is "<hexagram>"
+    When the hexagram from top to bottom is "<hexagram>"
     Then its number is <number>
 
     Examples:

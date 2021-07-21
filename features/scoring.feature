@@ -3,7 +3,7 @@ Feature: Scoring
   Each monogram has a score of 6, 7, 8, or 9. Thus there are four different monograms.
 
   Scenario Outline: Score coin tosses
-    Given the three coin tosses are "<tosses>"
+    When the three coin tosses are "<tosses>"
     Then the score should be "<score>"
 
   Examples: All heads

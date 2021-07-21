@@ -1,4 +1,4 @@
-Given /^the three coin tosses are "([^"]*)"$/ do |values|
+When /^the three coin tosses are "([^"]*)"$/ do |values|
   @values = values.chars.map do |value|
     case value
       when 'h'

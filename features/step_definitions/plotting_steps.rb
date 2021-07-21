@@ -1,4 +1,4 @@
-Given("the score is {string}") do |string|
+When("the score is {string}") do |string|
   @score = string.to_i
 end
 

@@ -1,4 +1,4 @@
-Given /^the monogram is "([^"]*)"$/ do |monogram|
+When /^the monogram is "([^"]*)"$/ do |monogram|
   @score = case monogram
              when '.---'
                9
