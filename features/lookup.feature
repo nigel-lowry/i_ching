@@ -9,7 +9,7 @@ Feature: Lookup
 
     Examples:
       A u means unbroken whilst a b means broken, and the monogram is represented from top to bottom. These are
-      arbitrary and no mathematical relationship exists.
+      arbitrary and no logical relationship is known to exist.
 
       | hexagram | number |
       | uuuuuu   | 1      |

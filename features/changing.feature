@@ -15,8 +15,8 @@ Feature: Changing
     |  ---     | ---     | ---    |
 
   Examples: Unstable monograms
-    Unstable monograms (represented by a leading dot) change in the future. Unbroken monograms become broken and broken
-    monograms become unbroken.
+    Unstable monograms (represented by a leading dot) change in the future.
+    Unbroken monograms become broken and broken monograms become unbroken.
 
     | monogram | present | future |
     | .---     | ---     | - -    |

@@ -1,9 +1,15 @@
 Feature: Casting
 
-  In I Ching, you toss three coins, each forming a monogram, six times. Each monogram has a score of 6, 7, 8 or 9.
-  Thus there are four different monograms. The six monograms form a hexagram which is made up of a present hexagram
-  (fortune), and a future hexagram, from "The Oracle". The present and future hexagrams may or may not be identical.
-  You then check what the hexagrams represent in an I Ching book ("The Book of Changes"). There are 64 hexagrams.
+  In the ancient form of fortune-telling I Ching, you pose a question to "The Oracle",
+  then toss three coins, each forming a monogram, six times. Each monogram has a score
+  of 6, 7, 8 or 9. Thus there are four different monograms.
+
+  The six monograms form a hexagram which is composed of a present hexagram, and a
+  future hexagram. The future hexagram can be identical to the present hexagram meaning
+  that the current situation persists in the future.
+
+  Finally you read the relevant passages from the "Book of Changes" (available online at
+  http://the-iching.com or in bookstores). There are 64 hexagrams in a "Book of Changes".
 
   Scenario: Toss coins
     When I cast
