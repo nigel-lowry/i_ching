@@ -1,1 +1,1 @@
-default: --tags 'not @wip' --require features --color
+default: --publish-quiet --tags 'not @wip' --require features --color
