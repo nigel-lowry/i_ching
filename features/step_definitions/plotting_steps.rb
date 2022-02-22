@@ -3,5 +3,5 @@ When("the score is {string}") do |string|
 end
 
 Then /^the monogram should be "([^"]*)"$/ do |monogram|
-  expect(MonogramPlotter.new(@score).to_s).to eq(monogram)
+  expect(IChing::MonogramPlotter.new(@score).to_s).to eq(monogram)
 end

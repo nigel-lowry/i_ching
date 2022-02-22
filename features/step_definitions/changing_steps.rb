@@ -12,9 +12,9 @@ When /^the monogram is "([^"]*)"$/ do |monogram|
 end
 
 Then /^the present should be "([^"]*)"$/ do |present|
-  expect(MonogramPlotter.new(@score).present).to eq(present)
+  expect(IChing::MonogramPlotter.new(@score).present).to eq(present)
 end
 
 Then /^the future should be "([^"]*)"$/ do |future|
-  expect(MonogramPlotter.new(@score).future).to eq(future)
+  expect(IChing::MonogramPlotter.new(@score).future).to eq(future)
 end

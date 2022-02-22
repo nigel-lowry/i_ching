@@ -10,5 +10,5 @@ When /^the three coin tosses are "([^"]*)"$/ do |values|
 end
 
 Then("the score should be {string}") do |string|
-  expect(Scorer.new(@values).score).to eq(string.to_i)
+  expect(IChing::Scorer.new(@values).score).to eq(string.to_i)
 end

@@ -4,7 +4,7 @@ module KnowsTheDomain
   end
 
   def caster
-    @my_caster ||= Caster.new
+    @my_caster ||= IChing::Caster.new
   end
 end
 
