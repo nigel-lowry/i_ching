@@ -1,6 +1,6 @@
-FROM ruby:3.0.2-alpine
+FROM ruby:3.1.1-alpine
 
-RUN apk update && apk add \
+RUN apk add --update --no-cache \
   build-base
 
 COPY Gemfile* /usr/src/app/
